@@ -1,0 +1,29 @@
+### GET all galeries
+GET http://localhost:3000/galleries
+
+### POST new gallery
+POST http://localhost:3000/galleries
+Content-Type: application/json
+
+{
+    "name": "Autók"
+}
+
+### DELETE gallery by id
+DELETE  http://localhost:3000/galleries/11
+
+### GET images from gallery by id
+GET http://localhost:3000/images/4
+
+### POST new image to gallery by id
+POST http://localhost:3000/images/1
+Content-Type: application/json
+
+{
+    "filename": "kep8.png",
+    "path": "uploads/3"
+}
+
+### DELETE image from gallery
+DELETE  http://localhost:3000/images/1
+
